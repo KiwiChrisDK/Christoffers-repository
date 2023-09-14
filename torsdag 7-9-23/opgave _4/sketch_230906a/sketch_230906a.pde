@@ -2,24 +2,27 @@
 for(int i =0; i<21;i++){
   println(i);
 }
-
+println();
 
 //4.B
 for(int i =0; i<21;i+=2){
   println(i);
 }
-
+println();
  
 //4.C
-for(int start=20; start>=0;start--){
-  println(start);
-  if(start==0)
-  print("TAKE OFF!");
-}
+int n = 20;
 
+for(int start=n; start>=0;start--){
+  if(start==0)
+  println("TAKE OFF!");
+  else
+    println(start);
+}
+println();
 
 //4.D
-for (int start=20; start>=0; start--) {
+for (int start=n; start>=0; start--) {
   if (start==3) {
     println("three");
   } else if (start==2) {
@@ -30,10 +33,11 @@ for (int start=20; start>=0; start--) {
     println(start);
   }
    else if(start==0) {
-    print("TAKE OFF!!");
+    println("TAKE OFF!!");
   }
 }
 
+println();
 
 //4.E
 int i=0;
@@ -41,6 +45,7 @@ while (i<21){
   println(i);
   i+=2;
 }
+println();
 
 //4.E
 int start=21;
