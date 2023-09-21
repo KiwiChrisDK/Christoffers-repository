@@ -2,9 +2,9 @@ Teacher myTeacher;
 
 
 void setup () {
-  myTeacher = new Teacher ("Jesper", 80, false);
-   print(myTeacher.name + " is now");
-  myTeacher.changeName(" Signe");
-  print (myTeacher.name);
+  myTeacher = new Teacher ("Jesper", 35, false);
+  println(myTeacher.name);
+  myTeacher.changeName("Signe");
+  println (myTeacher.name);
   
 }
