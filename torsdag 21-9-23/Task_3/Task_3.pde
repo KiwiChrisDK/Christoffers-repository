@@ -3,7 +3,7 @@ void setup() {
   String[]Hits = {"Mockingbird", "Hveps i et glas", "Unskyld", "CandyShop", "Changes"};
 
   for (int i=0; i<Rappers.length; i++) {
-    println (i+1 + " " +Rappers[i] +": "+ Hits[i]);
+    println ("("+(i+1) + ") " +Rappers[i] +": "+ Hits[i]);
   }
 }
 //String[]Hits = {"Mockingbird", "Hveps i et glas", "Unskyld", "CandyShop", "Changes"}
